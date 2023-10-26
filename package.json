@@ -1,0 +1,19 @@
+{
+  "name": "playwright-assignment",
+  "version": "1.0.0",
+  "description": "assignment project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --headed"
+  },
+  "author": "Andrii Baidachenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
