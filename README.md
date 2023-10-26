@@ -36,7 +36,7 @@
 
 - `playwright-report`
 
-  - please find the test execution recordings and html report here
+  - please find the existing test execution recordings and HTML report here
 
 ### Tests Execution and Global login setup
 
