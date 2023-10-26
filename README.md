@@ -1,6 +1,6 @@
 # Appiskey Assignment
 
-## Project setup and execuation
+## Project setup and execution
 
 - `git clone` - git clone url
 - `npm install` - packages install
@@ -40,11 +40,11 @@
 
 ### Tests Execution and Global login setup
 
-- I have create .env on root directory and please find test user details via email. Just add Test user details in .env and execute the test.
-- global setup will run once and generate the loginAuth.json file which we use further for all tests
-- At the moment I jsut generate a session and store in loginAuth.json if it expired please uncomment the code ` globalSetup: "./global-setup"` in playwright.config file.
-- Why I disable login script? As this is prod env and Daraz will detected frequent login requests and block specific IP's and network
+- I have created .env on the root directory, and please find the test user details in the email. Just add Test user details in .env and execute the test
+- global setup will run once and generate the loginAuth.json file, which we use further for all tests
+- Currently, I generate a session and store it in loginAuth.json. If it expires, please uncomment the code ` globalSetup: "./global-setup"` in the playwright—config file.
+- Why did I turn off the login script? As this is prod env, Daraz will detect frequent login requests and block specific IPs and network
 
 ## Tests Result/Report
 
-After running the tests it generates the HTML test report for all the test. This report tells you how each test went and also recording of the test execution.
+After running the tests, it generates the HTML test report for all the tests. This report tells you how each test went and a recording of the test execution.
